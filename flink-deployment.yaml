@@ -1,7 +1,7 @@
 apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
-  name: basic-example
+  name: kafka-example
 spec:
   # image: "haroldo89/flink-demo-1-11:0.0.9"
   image: "haroldo89/flink-kafka:0.0.9"

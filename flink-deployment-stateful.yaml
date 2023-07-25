@@ -1,0 +1,43 @@
+apiVersion: flink.apache.org/v1beta1
+kind: FlinkDeployment
+metadata:
+  name: kafka-checkpoint-example
+spec:
+  serviceAccount: flink
+  image: "haroldo89/flink-kafka:0.0.14"
+  flinkVersion: v1_13
+  flinkConfiguration:
+    taskmanager.numberOfTaskSlots: "2"
+    state.checkpoints.dir: file:///flink-data/checkpoints
+    state.savepoints.dir: file:///flink-data/savepoints
+    high-availability: org.apache.flink.kubernetes.highavailability.KubernetesHaServicesFactory
+    high-availability.storageDir: file:///flink-data/ha
+  jobManager:
+    replicas: 1
+    resource:
+      memory: "2048m"
+      cpu: 1
+  taskManager:
+    resource:
+      memory: "2048m"
+      cpu: 1
+  podTemplate:
+    spec:
+      serviceAccount: flink
+      containers:
+        - name: flink-main-container
+          volumeMounts:
+          - mountPath: /flink-data
+            name: flink-volume
+      volumes:
+      - name: flink-volume
+        # hostPath:
+          # directory location on host
+          # path: /tmp/flink
+          # # this field is optional
+          # type: Directory
+  job:
+    jarURI: local:///opt/flink/demo/streaming/flinkdemo.jar
+    parallelism: 2
+    upgradeMode: last-state
+    state: running
