@@ -1,3 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: flink-volume
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/tmp/flink"
+---
 apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
@@ -31,11 +43,6 @@ spec:
             name: flink-volume
       volumes:
       - name: flink-volume
-        # hostPath:
-          # directory location on host
-          # path: /tmp/flink
-          # # this field is optional
-          # type: Directory
   job:
     jarURI: local:///opt/flink/demo/streaming/flinkdemo.jar
     parallelism: 2
