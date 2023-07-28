@@ -1,0 +1,790 @@
+Namespace: global-infoexpo-des
+Namespace: adriancmart
+No hay DeploymentConfigs en este namespace. + adriancmart
+Namespace: adriancmarttest
+No hay DeploymentConfigs en este namespace. + adriancmarttest
+Namespace: albertogdi
+No hay DeploymentConfigs en este namespace. + albertogdi
+Namespace: amgperfo
+No hay DeploymentConfigs en este namespace. + amgperfo
+Namespace: bamboo-pipelines
+No hay DeploymentConfigs en este namespace. + bamboo-pipelines
+Namespace: bbdd-db2
+No hay DeploymentConfigs en este namespace. + bbdd-db2
+Namespace: bbdd-maxscale
+No hay DeploymentConfigs en este namespace. + bbdd-maxscale
+Namespace: benchmark-operator
+No hay DeploymentConfigs en este namespace. + benchmark-operator
+Namespace: bk-amqoperator-des
+No hay DeploymentConfigs en este namespace. + bk-amqoperator-des
+Namespace: bk-analytics-des
+No hay DeploymentConfigs en este namespace. + bk-analytics-des
+Namespace: bk-brickmortar-des
+Namespace: bk-commerman-des
+No hay DeploymentConfigs en este namespace. + bk-commerman-des
+Namespace: bk-communication-des
+Namespace: bk-content-des
+Namespace: bk-core-des
+Namespace: bk-customer-des
+Namespace: bk-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + bk-dataprivacy-des
+Namespace: bk-finance-des
+Namespace: bk-fraud-des
+No hay DeploymentConfigs en este namespace. + bk-fraud-des
+Namespace: bk-fulfillment-des
+No hay DeploymentConfigs en este namespace. + bk-fulfillment-des
+Namespace: bk-infoexpo-des
+No hay DeploymentConfigs en este namespace. + bk-infoexpo-des
+Namespace: bk-loyalty-des
+No hay DeploymentConfigs en este namespace. + bk-loyalty-des
+Namespace: bk-marketing-des
+No hay DeploymentConfigs en este namespace. + bk-marketing-des
+Namespace: bk-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + bk-mrktplcs-des
+Namespace: bk-orders-des
+Namespace: bk-payment-des
+No hay DeploymentConfigs en este namespace. + bk-payment-des
+Namespace: bk-productandcatalog-des
+Namespace: bk-promotion-des
+No hay DeploymentConfigs en este namespace. + bk-promotion-des
+Namespace: bk-purchase-des
+Namespace: bk-returns-des
+No hay DeploymentConfigs en este namespace. + bk-returns-des
+Namespace: bk-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + bk-sitemngmnt-des
+Namespace: bk-stock-des
+No hay DeploymentConfigs en este namespace. + bk-stock-des
+Namespace: bk-swapi-des
+No hay DeploymentConfigs en este namespace. + bk-swapi-des
+Namespace: bk-swdelivery-des
+No hay DeploymentConfigs en este namespace. + bk-swdelivery-des
+Namespace: bk-swsecurity-des
+No hay DeploymentConfigs en este namespace. + bk-swsecurity-des
+Namespace: bk-transport-des
+Namespace: cert-manager
+No hay DeploymentConfigs en este namespace. + cert-manager
+Namespace: clusterresourceoverride
+No hay DeploymentConfigs en este namespace. + clusterresourceoverride
+Namespace: configtool-test
+No hay DeploymentConfigs en este namespace. + configtool-test
+Namespace: contprof
+No hay DeploymentConfigs en este namespace. + contprof
+Namespace: costmanagement-metrics-operator
+No hay DeploymentConfigs en este namespace. + costmanagement-metrics-operator
+Namespace: default
+No hay DeploymentConfigs en este namespace. + default
+Namespace: devops-scaling-operator
+No hay DeploymentConfigs en este namespace. + devops-scaling-operator
+Namespace: devops-seldon
+No hay DeploymentConfigs en este namespace. + devops-seldon
+Namespace: discourse
+No hay DeploymentConfigs en este namespace. + discourse
+Namespace: etcd-backup
+No hay DeploymentConfigs en este namespace. + etcd-backup
+Namespace: franciscojbc
+No hay DeploymentConfigs en este namespace. + franciscojbc
+Namespace: geofencing-oy
+No hay DeploymentConfigs en este namespace. + geofencing-oy
+Namespace: geofencing-pb
+No hay DeploymentConfigs en este namespace. + geofencing-pb
+Namespace: geofencing-za
+No hay DeploymentConfigs en este namespace. + geofencing-za
+Namespace: github
+No hay DeploymentConfigs en este namespace. + github
+Namespace: github-pipelines
+No hay DeploymentConfigs en este namespace. + github-pipelines
+Namespace: github-runners
+No hay DeploymentConfigs en este namespace. + github-runners
+Namespace: global-access-des
+No hay DeploymentConfigs en este namespace. + global-access-des
+Namespace: global-amqoperator-des
+No hay DeploymentConfigs en este namespace. + global-amqoperator-des
+Namespace: global-analytics-des
+Namespace: global-boecommerce-des
+No hay DeploymentConfigs en este namespace. + global-boecommerce-des
+Namespace: global-brickmortar-des
+Namespace: global-browsing-des
+Namespace: global-commerman-des
+No hay DeploymentConfigs en este namespace. + global-commerman-des
+Namespace: global-commobile-des
+No hay DeploymentConfigs en este namespace. + global-commobile-des
+Namespace: global-communication-des
+Namespace: global-compliance-des
+No hay DeploymentConfigs en este namespace. + global-compliance-des
+Namespace: global-content-des
+Namespace: global-core-des
+Namespace: global-customer-des
+Namespace: global-dataecom-des
+No hay DeploymentConfigs en este namespace. + global-dataecom-des
+Namespace: global-dataprivacy-des
+Namespace: global-ecommercelegacy-des
+No hay DeploymentConfigs en este namespace. + global-ecommercelegacy-des
+Namespace: global-finance-des
+Namespace: global-fraud-des
+Namespace: global-frontend-des
+Namespace: global-fulfillment-des
+Namespace: global-gossip-des
+No hay DeploymentConfigs en este namespace. + global-gossip-des
+Namespace: global-infoexpo-des
+Namespace: global-intrnational-des
+Namespace: global-iopstools-des
+No hay DeploymentConfigs en este namespace. + global-iopstools-des
+Namespace: global-marketing-des
+Namespace: global-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + global-mrktplcs-des
+Namespace: global-orders-des
+Namespace: global-payment-des
+Namespace: global-productandcatalog-des
+Namespace: global-promotion-des
+No hay DeploymentConfigs en este namespace. + global-promotion-des
+Namespace: global-purchase-des
+Namespace: global-retouch-des
+Namespace: global-returns-des
+Namespace: global-sisifox-des
+No hay DeploymentConfigs en este namespace. + global-sisifox-des
+Namespace: global-sitemngmnt-des
+Namespace: global-stock-des
+Namespace: global-swapi-des
+No hay DeploymentConfigs en este namespace. + global-swapi-des
+Namespace: global-swdelivery-des
+Namespace: global-swdelivery-lab
+No hay DeploymentConfigs en este namespace. + global-swdelivery-lab
+Namespace: global-swdevelop-des
+Namespace: global-swobservb
+No hay DeploymentConfigs en este namespace. + global-swobservb
+Namespace: global-swobservb-des
+Namespace: global-swobservbapm-des
+No hay DeploymentConfigs en este namespace. + global-swobservbapm-des
+Namespace: global-swoperation-des
+No hay DeploymentConfigs en este namespace. + global-swoperation-des
+Namespace: global-swquality-des
+No hay DeploymentConfigs en este namespace. + global-swquality-des
+Namespace: global-swsecurity-des
+No hay DeploymentConfigs en este namespace. + global-swsecurity-des
+Namespace: global-transport-des
+Namespace: global-webecom-des
+Namespace: global-webzaraecom-des
+No hay DeploymentConfigs en este namespace. + global-webzaraecom-des
+Namespace: group-sync-operator
+No hay DeploymentConfigs en este namespace. + group-sync-operator
+Namespace: hello
+No hay DeploymentConfigs en este namespace. + hello
+Namespace: icarus
+No hay DeploymentConfigs en este namespace. + icarus
+Namespace: inboxcore-oy
+No hay DeploymentConfigs en este namespace. + inboxcore-oy
+Namespace: inboxcore-za
+No hay DeploymentConfigs en este namespace. + inboxcore-za
+Namespace: infra-alerta
+No hay DeploymentConfigs en este namespace. + infra-alerta
+Namespace: infra-audit
+No hay DeploymentConfigs en este namespace. + infra-audit
+Namespace: infra-blackbox
+No hay DeploymentConfigs en este namespace. + infra-blackbox
+Namespace: infra-container-builds
+No hay DeploymentConfigs en este namespace. + infra-container-builds
+Namespace: infra-events
+No hay DeploymentConfigs en este namespace. + infra-events
+Namespace: infra-f5-ingress
+No hay DeploymentConfigs en este namespace. + infra-f5-ingress
+Namespace: infra-grafana
+No hay DeploymentConfigs en este namespace. + infra-grafana
+Namespace: infra-image-processing
+No hay DeploymentConfigs en este namespace. + infra-image-processing
+Namespace: infra-kafka
+No hay DeploymentConfigs en este namespace. + infra-kafka
+Namespace: infra-labeler
+No hay DeploymentConfigs en este namespace. + infra-labeler
+Namespace: infra-netbox
+No hay DeploymentConfigs en este namespace. + infra-netbox
+Namespace: infra-rbac-manager
+No hay DeploymentConfigs en este namespace. + infra-rbac-manager
+Namespace: infra-rgw-prometheus
+No hay DeploymentConfigs en este namespace. + infra-rgw-prometheus
+Namespace: infra-s3-load-generator
+No hay DeploymentConfigs en este namespace. + infra-s3-load-generator
+Namespace: infra-test-ocpresources
+No hay DeploymentConfigs en este namespace. + infra-test-ocpresources
+Namespace: infra-tools
+No hay DeploymentConfigs en este namespace. + infra-tools
+Namespace: infra-utils
+No hay DeploymentConfigs en este namespace. + infra-utils
+Namespace: infra-vector
+No hay DeploymentConfigs en este namespace. + infra-vector
+Namespace: infra-vmetrics
+No hay DeploymentConfigs en este namespace. + infra-vmetrics
+Namespace: infra-vmetrics-scrape
+No hay DeploymentConfigs en este namespace. + infra-vmetrics-scrape
+Namespace: ismaelpf-test-serverless
+No hay DeploymentConfigs en este namespace. + ismaelpf-test-serverless
+Namespace: javiertl
+No hay DeploymentConfigs en este namespace. + javiertl
+Namespace: kitt-test
+No hay DeploymentConfigs en este namespace. + kitt-test
+Namespace: kube-node-lease
+No hay DeploymentConfigs en este namespace. + kube-node-lease
+Namespace: kube-public
+No hay DeploymentConfigs en este namespace. + kube-public
+Namespace: kube-system
+No hay DeploymentConfigs en este namespace. + kube-system
+Namespace: lf-amqoperator-des
+No hay DeploymentConfigs en este namespace. + lf-amqoperator-des
+Namespace: lf-analytics-des
+No hay DeploymentConfigs en este namespace. + lf-analytics-des
+Namespace: lf-brickmortar-des
+Namespace: lf-communication-des
+Namespace: lf-content-des
+Namespace: lf-core-des
+Namespace: lf-customer-des
+Namespace: lf-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + lf-dataprivacy-des
+Namespace: lf-finance-des
+Namespace: lf-fraud-des
+No hay DeploymentConfigs en este namespace. + lf-fraud-des
+Namespace: lf-fulfillment-des
+No hay DeploymentConfigs en este namespace. + lf-fulfillment-des
+Namespace: lf-infoexpo-des
+No hay DeploymentConfigs en este namespace. + lf-infoexpo-des
+Namespace: lf-marketing-des
+No hay DeploymentConfigs en este namespace. + lf-marketing-des
+Namespace: lf-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + lf-mrktplcs-des
+Namespace: lf-orders-des
+Namespace: lf-payment-des
+No hay DeploymentConfigs en este namespace. + lf-payment-des
+Namespace: lf-productandcatalog-des
+Namespace: lf-promotion-des
+Namespace: lf-purchase-des
+Namespace: lf-returns-des
+Namespace: lf-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + lf-sitemngmnt-des
+Namespace: lf-stock-des
+Namespace: lf-swapi-des
+No hay DeploymentConfigs en este namespace. + lf-swapi-des
+Namespace: lf-swdelivery-des
+No hay DeploymentConfigs en este namespace. + lf-swdelivery-des
+Namespace: lf-swsecurity-des
+No hay DeploymentConfigs en este namespace. + lf-swsecurity-des
+Namespace: lf-transport-des
+Namespace: litmus
+No hay DeploymentConfigs en este namespace. + litmus
+Namespace: manuelamr
+No hay DeploymentConfigs en este namespace. + manuelamr
+Namespace: md-amqoperator-des
+No hay DeploymentConfigs en este namespace. + md-amqoperator-des
+Namespace: md-analytics-des
+No hay DeploymentConfigs en este namespace. + md-analytics-des
+Namespace: md-brickmortar-des
+Namespace: md-communication-des
+Namespace: md-content-des
+Namespace: md-core-des
+Namespace: md-customer-des
+Namespace: md-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + md-dataprivacy-des
+Namespace: md-finance-des
+Namespace: md-fraud-des
+No hay DeploymentConfigs en este namespace. + md-fraud-des
+Namespace: md-fulfillment-des
+No hay DeploymentConfigs en este namespace. + md-fulfillment-des
+Namespace: md-infoexpo-des
+No hay DeploymentConfigs en este namespace. + md-infoexpo-des
+Namespace: md-loyalty-des
+No hay DeploymentConfigs en este namespace. + md-loyalty-des
+Namespace: md-marketing-des
+No hay DeploymentConfigs en este namespace. + md-marketing-des
+Namespace: md-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + md-mrktplcs-des
+Namespace: md-orders-des
+Namespace: md-payment-des
+No hay DeploymentConfigs en este namespace. + md-payment-des
+Namespace: md-productandcatalog-des
+Namespace: md-promotion-des
+No hay DeploymentConfigs en este namespace. + md-promotion-des
+Namespace: md-purchase-des
+Namespace: md-returns-des
+No hay DeploymentConfigs en este namespace. + md-returns-des
+Namespace: md-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + md-sitemngmnt-des
+Namespace: md-stock-des
+No hay DeploymentConfigs en este namespace. + md-stock-des
+Namespace: md-swapi-des
+No hay DeploymentConfigs en este namespace. + md-swapi-des
+Namespace: md-swdelivery-des
+No hay DeploymentConfigs en este namespace. + md-swdelivery-des
+Namespace: md-swsecurity-des
+No hay DeploymentConfigs en este namespace. + md-swsecurity-des
+Namespace: md-transport-des
+Namespace: md-webecom-des
+Namespace: mecjamba
+No hay DeploymentConfigs en este namespace. + mecjamba
+Namespace: midshow
+Namespace: netobserv
+No hay DeploymentConfigs en este namespace. + netobserv
+Namespace: netobserv-privileged
+No hay DeploymentConfigs en este namespace. + netobserv-privileged
+Namespace: ocp-validations
+No hay DeploymentConfigs en este namespace. + ocp-validations
+Namespace: openshift
+No hay DeploymentConfigs en este namespace. + openshift
+Namespace: openshift-adp
+No hay DeploymentConfigs en este namespace. + openshift-adp
+Namespace: openshift-apiserver
+No hay DeploymentConfigs en este namespace. + openshift-apiserver
+Namespace: openshift-apiserver-operator
+No hay DeploymentConfigs en este namespace. + openshift-apiserver-operator
+Namespace: openshift-authentication
+No hay DeploymentConfigs en este namespace. + openshift-authentication
+Namespace: openshift-authentication-operator
+No hay DeploymentConfigs en este namespace. + openshift-authentication-operator
+Namespace: openshift-cloud-controller-manager
+No hay DeploymentConfigs en este namespace. + openshift-cloud-controller-manager
+Namespace: openshift-cloud-controller-manager-operator
+No hay DeploymentConfigs en este namespace. + openshift-cloud-controller-manager-operator
+Namespace: openshift-cloud-credential-operator
+No hay DeploymentConfigs en este namespace. + openshift-cloud-credential-operator
+Namespace: openshift-cloud-network-config-controller
+No hay DeploymentConfigs en este namespace. + openshift-cloud-network-config-controller
+Namespace: openshift-cluster-csi-drivers
+No hay DeploymentConfigs en este namespace. + openshift-cluster-csi-drivers
+Namespace: openshift-cluster-machine-approver
+No hay DeploymentConfigs en este namespace. + openshift-cluster-machine-approver
+Namespace: openshift-cluster-node-tuning-operator
+No hay DeploymentConfigs en este namespace. + openshift-cluster-node-tuning-operator
+Namespace: openshift-cluster-samples-operator
+No hay DeploymentConfigs en este namespace. + openshift-cluster-samples-operator
+Namespace: openshift-cluster-storage-operator
+No hay DeploymentConfigs en este namespace. + openshift-cluster-storage-operator
+Namespace: openshift-cluster-version
+No hay DeploymentConfigs en este namespace. + openshift-cluster-version
+Namespace: openshift-compliance
+No hay DeploymentConfigs en este namespace. + openshift-compliance
+Namespace: openshift-config
+No hay DeploymentConfigs en este namespace. + openshift-config
+Namespace: openshift-config-managed
+No hay DeploymentConfigs en este namespace. + openshift-config-managed
+Namespace: openshift-config-operator
+No hay DeploymentConfigs en este namespace. + openshift-config-operator
+Namespace: openshift-console
+No hay DeploymentConfigs en este namespace. + openshift-console
+Namespace: openshift-console-operator
+No hay DeploymentConfigs en este namespace. + openshift-console-operator
+Namespace: openshift-console-user-settings
+No hay DeploymentConfigs en este namespace. + openshift-console-user-settings
+Namespace: openshift-controller-manager
+No hay DeploymentConfigs en este namespace. + openshift-controller-manager
+Namespace: openshift-controller-manager-operator
+No hay DeploymentConfigs en este namespace. + openshift-controller-manager-operator
+Namespace: openshift-debug-25hr7
+No hay DeploymentConfigs en este namespace. + openshift-debug-25hr7
+Namespace: openshift-debug-2j6jh
+No hay DeploymentConfigs en este namespace. + openshift-debug-2j6jh
+Namespace: openshift-debug-6dnrs
+No hay DeploymentConfigs en este namespace. + openshift-debug-6dnrs
+Namespace: openshift-debug-6ts2x
+No hay DeploymentConfigs en este namespace. + openshift-debug-6ts2x
+Namespace: openshift-debug-9wgtm
+No hay DeploymentConfigs en este namespace. + openshift-debug-9wgtm
+Namespace: openshift-debug-9xkqd
+No hay DeploymentConfigs en este namespace. + openshift-debug-9xkqd
+Namespace: openshift-debug-b795p
+No hay DeploymentConfigs en este namespace. + openshift-debug-b795p
+Namespace: openshift-debug-cv5gw
+No hay DeploymentConfigs en este namespace. + openshift-debug-cv5gw
+Namespace: openshift-debug-dw2q8
+No hay DeploymentConfigs en este namespace. + openshift-debug-dw2q8
+Namespace: openshift-debug-dzbgw
+No hay DeploymentConfigs en este namespace. + openshift-debug-dzbgw
+Namespace: openshift-debug-g6hnl
+No hay DeploymentConfigs en este namespace. + openshift-debug-g6hnl
+Namespace: openshift-debug-gnm6g
+No hay DeploymentConfigs en este namespace. + openshift-debug-gnm6g
+Namespace: openshift-debug-jfzhn
+No hay DeploymentConfigs en este namespace. + openshift-debug-jfzhn
+Namespace: openshift-debug-jk9wx
+No hay DeploymentConfigs en este namespace. + openshift-debug-jk9wx
+Namespace: openshift-debug-kq6b5
+No hay DeploymentConfigs en este namespace. + openshift-debug-kq6b5
+Namespace: openshift-debug-npwnv
+No hay DeploymentConfigs en este namespace. + openshift-debug-npwnv
+Namespace: openshift-debug-p4z6t
+No hay DeploymentConfigs en este namespace. + openshift-debug-p4z6t
+Namespace: openshift-debug-r4rmq
+No hay DeploymentConfigs en este namespace. + openshift-debug-r4rmq
+Namespace: openshift-debug-sxz9z
+No hay DeploymentConfigs en este namespace. + openshift-debug-sxz9z
+Namespace: openshift-debug-tbjf2
+No hay DeploymentConfigs en este namespace. + openshift-debug-tbjf2
+Namespace: openshift-debug-xp4nf
+No hay DeploymentConfigs en este namespace. + openshift-debug-xp4nf
+Namespace: openshift-debug-zc5k2
+No hay DeploymentConfigs en este namespace. + openshift-debug-zc5k2
+Namespace: openshift-debug-zrtf9
+No hay DeploymentConfigs en este namespace. + openshift-debug-zrtf9
+Namespace: openshift-dns
+No hay DeploymentConfigs en este namespace. + openshift-dns
+Namespace: openshift-dns-operator
+No hay DeploymentConfigs en este namespace. + openshift-dns-operator
+Namespace: openshift-etcd
+No hay DeploymentConfigs en este namespace. + openshift-etcd
+Namespace: openshift-etcd-operator
+No hay DeploymentConfigs en este namespace. + openshift-etcd-operator
+Namespace: openshift-file-integrity
+No hay DeploymentConfigs en este namespace. + openshift-file-integrity
+Namespace: openshift-host-network
+No hay DeploymentConfigs en este namespace. + openshift-host-network
+Namespace: openshift-image-registry
+No hay DeploymentConfigs en este namespace. + openshift-image-registry
+Namespace: openshift-infra
+No hay DeploymentConfigs en este namespace. + openshift-infra
+Namespace: openshift-ingress
+No hay DeploymentConfigs en este namespace. + openshift-ingress
+Namespace: openshift-ingress-canary
+No hay DeploymentConfigs en este namespace. + openshift-ingress-canary
+Namespace: openshift-ingress-operator
+No hay DeploymentConfigs en este namespace. + openshift-ingress-operator
+Namespace: openshift-insights
+No hay DeploymentConfigs en este namespace. + openshift-insights
+Namespace: openshift-kni-infra
+No hay DeploymentConfigs en este namespace. + openshift-kni-infra
+Namespace: openshift-kube-apiserver
+No hay DeploymentConfigs en este namespace. + openshift-kube-apiserver
+Namespace: openshift-kube-apiserver-operator
+No hay DeploymentConfigs en este namespace. + openshift-kube-apiserver-operator
+Namespace: openshift-kube-controller-manager
+No hay DeploymentConfigs en este namespace. + openshift-kube-controller-manager
+Namespace: openshift-kube-controller-manager-operator
+No hay DeploymentConfigs en este namespace. + openshift-kube-controller-manager-operator
+Namespace: openshift-kube-scheduler
+No hay DeploymentConfigs en este namespace. + openshift-kube-scheduler
+Namespace: openshift-kube-scheduler-operator
+No hay DeploymentConfigs en este namespace. + openshift-kube-scheduler-operator
+Namespace: openshift-kube-storage-version-migrator
+No hay DeploymentConfigs en este namespace. + openshift-kube-storage-version-migrator
+Namespace: openshift-kube-storage-version-migrator-operator
+No hay DeploymentConfigs en este namespace. + openshift-kube-storage-version-migrator-operator
+Namespace: openshift-machine-api
+No hay DeploymentConfigs en este namespace. + openshift-machine-api
+Namespace: openshift-machine-config-operator
+No hay DeploymentConfigs en este namespace. + openshift-machine-config-operator
+Namespace: openshift-marketplace
+No hay DeploymentConfigs en este namespace. + openshift-marketplace
+Namespace: openshift-monitoring
+No hay DeploymentConfigs en este namespace. + openshift-monitoring
+Namespace: openshift-multus
+No hay DeploymentConfigs en este namespace. + openshift-multus
+Namespace: openshift-must-gather-2w78k
+No hay DeploymentConfigs en este namespace. + openshift-must-gather-2w78k
+Namespace: openshift-netobserv-operator
+No hay DeploymentConfigs en este namespace. + openshift-netobserv-operator
+Namespace: openshift-network-diagnostics
+No hay DeploymentConfigs en este namespace. + openshift-network-diagnostics
+Namespace: openshift-network-operator
+No hay DeploymentConfigs en este namespace. + openshift-network-operator
+Namespace: openshift-node
+No hay DeploymentConfigs en este namespace. + openshift-node
+Namespace: openshift-nutanix-infra
+No hay DeploymentConfigs en este namespace. + openshift-nutanix-infra
+Namespace: openshift-oauth-apiserver
+No hay DeploymentConfigs en este namespace. + openshift-oauth-apiserver
+Namespace: openshift-openstack-infra
+No hay DeploymentConfigs en este namespace. + openshift-openstack-infra
+Namespace: openshift-operator-lifecycle-manager
+No hay DeploymentConfigs en este namespace. + openshift-operator-lifecycle-manager
+Namespace: openshift-operators
+No hay DeploymentConfigs en este namespace. + openshift-operators
+Namespace: openshift-operators-redhat
+No hay DeploymentConfigs en este namespace. + openshift-operators-redhat
+Namespace: openshift-ovirt-infra
+No hay DeploymentConfigs en este namespace. + openshift-ovirt-infra
+Namespace: openshift-pipelines
+No hay DeploymentConfigs en este namespace. + openshift-pipelines
+Namespace: openshift-route-controller-manager
+No hay DeploymentConfigs en este namespace. + openshift-route-controller-manager
+Namespace: openshift-sdn
+No hay DeploymentConfigs en este namespace. + openshift-sdn
+Namespace: openshift-service-ca
+No hay DeploymentConfigs en este namespace. + openshift-service-ca
+Namespace: openshift-service-ca-operator
+No hay DeploymentConfigs en este namespace. + openshift-service-ca-operator
+Namespace: openshift-service-catalog-removed
+No hay DeploymentConfigs en este namespace. + openshift-service-catalog-removed
+Namespace: openshift-storage
+No hay DeploymentConfigs en este namespace. + openshift-storage
+Namespace: openshift-user-workload-monitoring
+No hay DeploymentConfigs en este namespace. + openshift-user-workload-monitoring
+Namespace: openshift-vsphere-infra
+No hay DeploymentConfigs en este namespace. + openshift-vsphere-infra
+Namespace: oy-amqoperator-des
+No hay DeploymentConfigs en este namespace. + oy-amqoperator-des
+Namespace: oy-analytics-des
+No hay DeploymentConfigs en este namespace. + oy-analytics-des
+Namespace: oy-brickmortar-des
+Namespace: oy-communication-des
+Namespace: oy-content-des
+Namespace: oy-core-des
+Namespace: oy-customer-des
+Namespace: oy-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + oy-dataprivacy-des
+Namespace: oy-finance-des
+Namespace: oy-fraud-des
+No hay DeploymentConfigs en este namespace. + oy-fraud-des
+Namespace: oy-fulfillment-des
+No hay DeploymentConfigs en este namespace. + oy-fulfillment-des
+Namespace: oy-infoexpo-des
+No hay DeploymentConfigs en este namespace. + oy-infoexpo-des
+Namespace: oy-marketing-des
+No hay DeploymentConfigs en este namespace. + oy-marketing-des
+Namespace: oy-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + oy-mrktplcs-des
+Namespace: oy-orders-des
+Namespace: oy-payment-des
+No hay DeploymentConfigs en este namespace. + oy-payment-des
+Namespace: oy-productandcatalog-des
+Namespace: oy-promotion-des
+No hay DeploymentConfigs en este namespace. + oy-promotion-des
+Namespace: oy-purchase-des
+Namespace: oy-returns-des
+No hay DeploymentConfigs en este namespace. + oy-returns-des
+Namespace: oy-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + oy-sitemngmnt-des
+Namespace: oy-stock-des
+No hay DeploymentConfigs en este namespace. + oy-stock-des
+Namespace: oy-swapi-des
+No hay DeploymentConfigs en este namespace. + oy-swapi-des
+Namespace: oy-swdelivery-des
+No hay DeploymentConfigs en este namespace. + oy-swdelivery-des
+Namespace: oy-swsecurity-des
+No hay DeploymentConfigs en este namespace. + oy-swsecurity-des
+Namespace: oy-transport-des
+Namespace: oy-webecom-des
+No hay DeploymentConfigs en este namespace. + oy-webecom-des
+Namespace: pb-amqoperator-des
+No hay DeploymentConfigs en este namespace. + pb-amqoperator-des
+Namespace: pb-analytics-des
+Namespace: pb-brickmortar-des
+Namespace: pb-communication-des
+Namespace: pb-content-des
+Namespace: pb-core-des
+Namespace: pb-customer-des
+Namespace: pb-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + pb-dataprivacy-des
+Namespace: pb-finance-des
+Namespace: pb-fraud-des
+No hay DeploymentConfigs en este namespace. + pb-fraud-des
+Namespace: pb-fulfillment-des
+No hay DeploymentConfigs en este namespace. + pb-fulfillment-des
+Namespace: pb-infoexpo-des
+No hay DeploymentConfigs en este namespace. + pb-infoexpo-des
+Namespace: pb-marketing-des
+No hay DeploymentConfigs en este namespace. + pb-marketing-des
+Namespace: pb-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + pb-mrktplcs-des
+Namespace: pb-orders-des
+Namespace: pb-payment-des
+No hay DeploymentConfigs en este namespace. + pb-payment-des
+Namespace: pb-productandcatalog-des
+Namespace: pb-promotion-des
+No hay DeploymentConfigs en este namespace. + pb-promotion-des
+Namespace: pb-purchase-des
+Namespace: pb-returns-des
+No hay DeploymentConfigs en este namespace. + pb-returns-des
+Namespace: pb-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + pb-sitemngmnt-des
+Namespace: pb-stock-des
+No hay DeploymentConfigs en este namespace. + pb-stock-des
+Namespace: pb-swapi-des
+No hay DeploymentConfigs en este namespace. + pb-swapi-des
+Namespace: pb-swdelivery-des
+No hay DeploymentConfigs en este namespace. + pb-swdelivery-des
+Namespace: pb-swsecurity-des
+No hay DeploymentConfigs en este namespace. + pb-swsecurity-des
+Namespace: pb-transport-des
+Namespace: poc-datagrid
+No hay DeploymentConfigs en este namespace. + poc-datagrid
+Namespace: pruebas-perses-images
+Namespace: qa-zara-ecommerse
+No hay DeploymentConfigs en este namespace. + qa-zara-ecommerse
+Namespace: qa-zara-kong
+No hay DeploymentConfigs en este namespace. + qa-zara-kong
+Namespace: qa-zara-kong-ingress
+No hay DeploymentConfigs en este namespace. + qa-zara-kong-ingress
+Namespace: raulgop
+No hay DeploymentConfigs en este namespace. + raulgop
+Namespace: rbd-test
+No hay DeploymentConfigs en este namespace. + rbd-test
+Namespace: redis-e2e-test
+No hay DeploymentConfigs en este namespace. + redis-e2e-test
+Namespace: ren-lre
+No hay DeploymentConfigs en este namespace. + ren-lre
+Namespace: rhacs-operator
+No hay DeploymentConfigs en este namespace. + rhacs-operator
+Namespace: rodolfocfc
+No hay DeploymentConfigs en este namespace. + rodolfocfc
+Namespace: sandbox
+Namespace: security-conjur
+No hay DeploymentConfigs en este namespace. + security-conjur
+Namespace: spinnaker
+No hay DeploymentConfigs en este namespace. + spinnaker
+Namespace: spinnaker-poc
+No hay DeploymentConfigs en este namespace. + spinnaker-poc
+Namespace: spinnaker-scripts-tests
+Namespace: st-amqoperator-des
+No hay DeploymentConfigs en este namespace. + st-amqoperator-des
+Namespace: st-analytics-des
+No hay DeploymentConfigs en este namespace. + st-analytics-des
+Namespace: st-brickmortar-des
+Namespace: st-browsing-des
+No hay DeploymentConfigs en este namespace. + st-browsing-des
+Namespace: st-communication-des
+Namespace: st-content-des
+Namespace: st-core-des
+Namespace: st-customer-des
+Namespace: st-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + st-dataprivacy-des
+Namespace: st-finance-des
+Namespace: st-fraud-des
+No hay DeploymentConfigs en este namespace. + st-fraud-des
+Namespace: st-fulfillment-des
+No hay DeploymentConfigs en este namespace. + st-fulfillment-des
+Namespace: st-infoexpo-des
+No hay DeploymentConfigs en este namespace. + st-infoexpo-des
+Namespace: st-marketing-des
+No hay DeploymentConfigs en este namespace. + st-marketing-des
+Namespace: st-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + st-mrktplcs-des
+Namespace: st-orders-des
+Namespace: st-payment-des
+No hay DeploymentConfigs en este namespace. + st-payment-des
+Namespace: st-productandcatalog-des
+Namespace: st-promotion-des
+No hay DeploymentConfigs en este namespace. + st-promotion-des
+Namespace: st-purchase-des
+Namespace: st-returns-des
+No hay DeploymentConfigs en este namespace. + st-returns-des
+Namespace: st-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + st-sitemngmnt-des
+Namespace: st-stock-des
+No hay DeploymentConfigs en este namespace. + st-stock-des
+Namespace: st-swapi-des
+No hay DeploymentConfigs en este namespace. + st-swapi-des
+Namespace: st-swdelivery-des
+No hay DeploymentConfigs en este namespace. + st-swdelivery-des
+Namespace: st-swsecurity-des
+No hay DeploymentConfigs en este namespace. + st-swsecurity-des
+Namespace: st-transport-des
+Namespace: tekton-poc
+No hay DeploymentConfigs en este namespace. + tekton-poc
+Namespace: telco-nsxt-monitoring
+No hay DeploymentConfigs en este namespace. + telco-nsxt-monitoring
+Namespace: test-logformat
+No hay DeploymentConfigs en este namespace. + test-logformat
+Namespace: test-ns
+No hay DeploymentConfigs en este namespace. + test-ns
+Namespace: test-performance-red-hat
+No hay DeploymentConfigs en este namespace. + test-performance-red-hat
+Namespace: testoperator-amqoperator-des
+No hay DeploymentConfigs en este namespace. + testoperator-amqoperator-des
+Namespace: vcluster-test-dex
+No hay DeploymentConfigs en este namespace. + vcluster-test-dex
+Namespace: vmagent-poc
+No hay DeploymentConfigs en este namespace. + vmagent-poc
+Namespace: warp
+No hay DeploymentConfigs en este namespace. + warp
+Namespace: za-access-des
+Namespace: za-amqoperator-des
+No hay DeploymentConfigs en este namespace. + za-amqoperator-des
+Namespace: za-analytics-des
+Namespace: za-brickmortar-des
+Namespace: za-browsing-des
+No hay DeploymentConfigs en este namespace. + za-browsing-des
+Namespace: za-communication-des
+Namespace: za-compliance-des
+No hay DeploymentConfigs en este namespace. + za-compliance-des
+Namespace: za-content-des
+No hay DeploymentConfigs en este namespace. + za-content-des
+Namespace: za-core-des
+Namespace: za-customer-des
+Namespace: za-dataecom-des
+No hay DeploymentConfigs en este namespace. + za-dataecom-des
+Namespace: za-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + za-dataprivacy-des
+Namespace: za-finance-des
+Namespace: za-fraud-des
+No hay DeploymentConfigs en este namespace. + za-fraud-des
+Namespace: za-fulfillment-des
+Namespace: za-infoexpo-des
+Namespace: za-marketing-des
+Namespace: za-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + za-mrktplcs-des
+Namespace: za-orders-des
+Namespace: za-payment-des
+Namespace: za-productandcatalog-des
+Namespace: za-promotion-des
+No hay DeploymentConfigs en este namespace. + za-promotion-des
+Namespace: za-purchase-des
+Namespace: za-returns-des
+Namespace: za-seg-des
+No hay DeploymentConfigs en este namespace. + za-seg-des
+Namespace: za-sitemngmnt-des
+Namespace: za-stock-des
+Namespace: za-swapi-des
+No hay DeploymentConfigs en este namespace. + za-swapi-des
+Namespace: za-swdelivery-des
+No hay DeploymentConfigs en este namespace. + za-swdelivery-des
+Namespace: za-swdevelop-des
+No hay DeploymentConfigs en este namespace. + za-swdevelop-des
+Namespace: za-swoperation-des
+No hay DeploymentConfigs en este namespace. + za-swoperation-des
+Namespace: za-swquality-des
+No hay DeploymentConfigs en este namespace. + za-swquality-des
+Namespace: za-swsecurity-des
+No hay DeploymentConfigs en este namespace. + za-swsecurity-des
+Namespace: za-transport-des
+Namespace: za-webecom-des
+Namespace: zh-amqoperator-des
+No hay DeploymentConfigs en este namespace. + zh-amqoperator-des
+Namespace: zh-analytics-des
+No hay DeploymentConfigs en este namespace. + zh-analytics-des
+Namespace: zh-brickmortar-des
+Namespace: zh-commerman-des
+No hay DeploymentConfigs en este namespace. + zh-commerman-des
+Namespace: zh-communication-des
+Namespace: zh-content-des
+Namespace: zh-core-des
+Namespace: zh-customer-des
+Namespace: zh-dataprivacy-des
+No hay DeploymentConfigs en este namespace. + zh-dataprivacy-des
+Namespace: zh-finance-des
+Namespace: zh-fraud-des
+No hay DeploymentConfigs en este namespace. + zh-fraud-des
+Namespace: zh-fulfillment-des
+No hay DeploymentConfigs en este namespace. + zh-fulfillment-des
+Namespace: zh-infoexpo-des
+No hay DeploymentConfigs en este namespace. + zh-infoexpo-des
+Namespace: zh-marketing-des
+No hay DeploymentConfigs en este namespace. + zh-marketing-des
+Namespace: zh-mrktplcs-des
+No hay DeploymentConfigs en este namespace. + zh-mrktplcs-des
+Namespace: zh-orders-des
+Namespace: zh-payment-des
+No hay DeploymentConfigs en este namespace. + zh-payment-des
+Namespace: zh-productandcatalog-des
+Namespace: zh-promotion-des
+No hay DeploymentConfigs en este namespace. + zh-promotion-des
+Namespace: zh-purchase-des
+Namespace: zh-returns-des
+Namespace: zh-sitemngmnt-des
+No hay DeploymentConfigs en este namespace. + zh-sitemngmnt-des
+Namespace: zh-stock-des
+No hay DeploymentConfigs en este namespace. + zh-stock-des
+Namespace: zh-swapi-des
+No hay DeploymentConfigs en este namespace. + zh-swapi-des
+Namespace: zh-swdelivery-des
+No hay DeploymentConfigs en este namespace. + zh-swdelivery-des
+Namespace: zh-swsecurity-des
+No hay DeploymentConfigs en este namespace. + zh-swsecurity-des
+Namespace: zh-swsecurity-prelt
+No hay DeploymentConfigs en este namespace. + zh-swsecurity-prelt
+Namespace: zh-transport-des
+Namespace: zh-webecom-des
+No hay DeploymentConfigs en este namespace. + zh-webecom-des
