@@ -2,7 +2,7 @@
 apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
-  name: kafka-checkpoint-example
+  name: kafka-savepoint-example
 spec:
   serviceAccount: flink
   image: "haroldo89/flink-kafka:0.0.14"
@@ -13,6 +13,8 @@ spec:
     state.savepoints.dir: file:///flink-data/savepoints
     high-availability: org.apache.flink.kubernetes.highavailability.KubernetesHaServicesFactory
     high-availability.storageDir: file:///flink-data/ha
+    kubernetes.operator.periodic.savepoint.interval: 3m
+    kubernetes.operator.savepoint.history.max.count: "5"
   jobManager:
     replicas: 1
     resource:
@@ -35,6 +37,7 @@ spec:
   job:
     jarURI: local:///opt/flink/demo/streaming/flinkdemo.jar
     parallelism: 2
-    upgradeMode: last-state
+    upgradeMode: savepoint
     state: running
+    savepointTriggerNonce: 0 #permite dispara el proceso de crear un savepoint de forma manual
 ---
