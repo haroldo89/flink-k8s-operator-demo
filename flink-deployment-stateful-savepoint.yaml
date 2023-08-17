@@ -2,7 +2,7 @@
 apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
-  name: kafka-savepoint-example
+  name: kafka-savepoint-example-2
 spec:
   serviceAccount: flink
   image: "haroldo89/flink-kafka:0.0.14"
@@ -31,9 +31,12 @@ spec:
         - name: flink-main-container
           volumeMounts:
           - mountPath: /flink-data
-            name: flink-volume
+            name: flink-volume-demo
       volumes:
-      - name: flink-volume
+      - name: flink-volume-demo
+        persistentVolumeClaim:
+          claimName: flink-pv-claim
+  restartNonce: 0
   job:
     jarURI: local:///opt/flink/demo/streaming/flinkdemo.jar
     parallelism: 2

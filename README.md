@@ -1,111 +1,94 @@
-# Adding dependencies to the project #
+# Flink Kubernetes Operator #
+The Flink Kubernetes Operator extends the Kubernetes API with the ability to manage and operate Flink Deployments. The operator features the following amongst others:
 
-### Open the pom.xml file in your project directory and add the dependency in between the dependencies tab.
+- Deploy and monitor Flink Application and Session deployments
+- Upgrade, suspend and delete deployments
+- Full logging and metrics integration
+- Flexible deployments and native integration with Kubernetes tooling
 
-For example, you can add the Kafka connector as a dependency and the configuration like this :
+# Quickstart
+
+This document provides a quick introduction to using the Flink Kubernetes Operator. Readers of this document will be able to deploy the Flink operator itself and an example Flink job to a local Kubernetes installation.
+
+# Prerequisites
+- docker
+- kubernetes
+- helm
+
+# Deploying the operator
+
+Install the certificate manager on your Kubernetes cluster to enable adding the webhook component (only needed once per Kubernetes cluster):
 
 ```
-<properties>
-    <flink.version>1.13.6</flink.version>
-</properties>
+kubectl create -f https://github.com/jetstack/cert-manager/releases/download/v1.8.2/cert-manager.yaml
+```
 
-<dependencies>
+Now you can deploy the selected stable Flink Kubernetes Operator version using the included Helm chart:
 
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-java</artifactId>
-      <version>${flink.version}</version>
-      <scope>compile</scope>
-    </dependency>
+```
+helm repo add flink-operator-repo https://downloads.apache.org/flink/flink-kubernetes-operator-1.5.0/
+helm install flink-kubernetes-operator flink-operator-repo/flink-kubernetes-operator
+```
+To find the list of stable versions please visit https://flink.apache.org/downloads.html
 
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
-      <version>${flink.version}</version>
-      <scope>compile</scope>
-    </dependency>
+# Submitting a Flink job
+Once the operator is running as seen in the previous step you are ready to submit a Flink job:
 
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-clients_${scala.binary.version}</artifactId>
-      <version>${flink.version}</version>
-      <scope>compile</scope>
-    </dependency>
-    <!-- Dependencia de Kafka -->
 
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-connector-kafka_2.11</artifactId>
-      <version>${flink.version}</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-connector-base</artifactId>
-      <version>${flink.version}</version>
-      <scope>compile</scope>
-    </dependency>
-  </dependencies>
-<build>
-    <plugins>
+Create a docker image with the Flink Application
 
-      <!-- Java Compiler -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
-        <configuration>
-          <source>${target.java.version}</source>
-          <target>${target.java.version}</target>
-        </configuration>
-      </plugin>
+```
+docker build -t flinkdemo .
+```
 
-      <!-- We use the maven-shade plugin to create a fat jar that contains all necessary
-			dependencies. -->
-      <!-- Change the value of <mainClass>...</mainClass> if your program entry point changes. -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-shade-plugin</artifactId>
-        <version>3.1.1</version>
-        <executions>
-          <!-- Run shade goal on package phase -->
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>shade</goal>
-            </goals>
-            <configuration>
-              <artifactSet>
-                <excludes>
-                  <exclude>org.apache.flink:force-shading</exclude>
-                  <exclude>com.google.code.findbugs:jsr305</exclude>
-                  <exclude>org.slf4j:*</exclude>
-                  <exclude>org.apache.logging.log4j:*</exclude>
-                </excludes>
-              </artifactSet>
-              <filters>
-                <filter>
-                  <!-- Do not copy the signatures in the META-INF folder.
-									Otherwise, this might cause SecurityExceptions when using the JAR. -->
-                  <artifact>*:*</artifact>
-                  <excludes>
-                    <exclude>META-INF/*.SF</exclude>
-                    <exclude>META-INF/*.DSA</exclude>
-                    <exclude>META-INF/*.RSA</exclude>
-                  </excludes>
-                </filter>
-              </filters>
-              <transformers>
-                <transformer
-                  implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <!-- Do not copy the signatures in the META-INF folder -->.
-                  <mainClass>com.flink.KafkaConsumer</mainClass>
-                </transformer>
-              </transformers>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-</build>
+Create a file called `flink-deployment.yaml` with FlinkDeployment definition
+
+```
+apiVersion: flink.apache.org/v1beta1
+kind: FlinkDeployment
+metadata:
+  name: kafka-example
+spec:
+  image: flinkdemo
+  flinkVersion: v1_13
+  flinkConfiguration:
+    taskmanager.numberOfTaskSlots: "1"
+  serviceAccount: flink
+  jobManager:
+    resource:
+      memory: "2048m"
+      cpu: 1
+  taskManager:
+    resource:
+      memory: "2048m"
+      cpu: 1
+  job:
+    jarURI: local:///opt/flink/demo/streaming/flinkdemo.jar
+    parallelism: 1
+    upgradeMode: stateless
+```
+
+submit the Flink job
+
+```
+kubectl create -f ./flink-deployment.yaml
+```
+You may follow the logs of your job, after a successful startup (which can take on the order of a minute in a fresh environment, seconds afterwards) you can:
+
+```
+kubectl logs -f deploy/flinkdemo
+```
+
+To expose the Flink Dashboard you may add a port-forward rule:
+
+```
+kubectl port-forward svc/flinkdemo-rest 8081
+```
+
+Now the Flink Dashboard is accessible at localhost:8081.
+
+In order to stop your job and delete your FlinkDeployment you can:
+
+```
+kubectl delete flinkdeployment/flinkdemo
 ```
