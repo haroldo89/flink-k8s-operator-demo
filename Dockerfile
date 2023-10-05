@@ -1,4 +1,4 @@
-FROM flink:1.13
+FROM flink:1.17
 
 RUN mkdir -p /tmp/flink
 RUN mkdir -p /opt/flink/demo/streaming

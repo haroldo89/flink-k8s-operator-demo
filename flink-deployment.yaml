@@ -1,12 +1,10 @@
 apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
-  name: kafka-example
+  name: flink-job-example
 spec:
-  # image: "haroldo89/flink-demo-1-11:0.0.9"
-  image: "haroldo89/flink-kafka:0.0.9"
-  # image: "haroldo89/flink-kafka-error:0.0.2"
-  flinkVersion: v1_13
+  image: "haroldo89/flinkdemo:1.0.5"
+  flinkVersion: v1_17
   flinkConfiguration:
     taskmanager.numberOfTaskSlots: "1"
   serviceAccount: flink

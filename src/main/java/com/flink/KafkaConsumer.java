@@ -14,8 +14,11 @@ public class KafkaConsumer {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         KafkaSource<String> source = KafkaSource.<String>builder()
-                .setBootstrapServers("broker:29092")
-                .setTopics("example-topic")
+                // .setBootstrapServers("broker:29092")
+                .setBootstrapServers("axpreecgpk2lb.ecommerce.inditex.grp:9092")
+                // .setTopics("example-topic")
+                // .setTopics("meccano.global.pre.apps.all.private.flink-test.v2")
+                .setTopics("meccano.global.pre.apps.all.private.knative-test.v2")
                 .setGroupId("my-group")
                 .setStartingOffsets(OffsetsInitializer.earliest())
                 .setValueOnlyDeserializer(new SimpleStringSchema())
